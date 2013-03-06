@@ -7,7 +7,7 @@
 #include "setup.sqf"
 if(!X_Server) exitWith {};
 
-sideMissions = 1;
+sideMissions = 0;
 serverSpawning = 1;
 
 //Execute Server Side Scripts.

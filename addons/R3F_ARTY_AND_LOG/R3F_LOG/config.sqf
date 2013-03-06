@@ -142,6 +142,7 @@ R3F_LOG_CFG_objets_transportables =  [
 	["Land_CncBarrier_F", 5],
 	["Land_Mound01_8m_F", 5],
 	["Land_Scaffolding_F", 5],
+	["Land_Sack_F", 1],
 	["Land_Razorwire_F", 1],
 	["Land_CargoBox_V1_F", 5],
     ["O_Quadbike_F", 10],
@@ -167,6 +168,7 @@ R3F_LOG_CFG_objets_deplacables = [
 	"Land_CncBarrier_F",
 	"Land_Mound01_8m_F",
 	"Land_Scaffolding_F",
+	"Land_Sack_F",
 	"Land_Razorwire_F",
 	"Land_CargoBox_V1_F",
     "O_Quadbike_F",
@@ -181,4 +183,4 @@ R3F_LOG_CFG_objets_deplacables = [
  * Liste des fichiers ajoutant des objets dans les tableaux de fonctionnalités logistiques (ex : R3F_LOG_CFG_remorqueurs)
  * Ajoutez une inclusion vers votre nouveau fichier ici si vous souhaitez utilisez la logistique avec un nouvel addon.
  */
-//#include "addons_config\arma2_CO_objects.sqf"
+#include "addons_config\arma2_CO_objects.sqf"
