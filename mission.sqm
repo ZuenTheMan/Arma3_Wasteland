@@ -16,7 +16,7 @@ class Mission
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="404 Wasteland v1.0 Alpha";
+		briefingName="TKG Wasteland v1.02 Alpha";
 		briefingDescription="A harsh survival sandbox";
 		resistanceWest=0;
 		startWeather=0.84999996;
